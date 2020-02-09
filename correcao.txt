@@ -1,0 +1,1 @@
+Corrigindo bugs da versão v0.0.2
