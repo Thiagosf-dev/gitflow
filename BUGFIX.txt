@@ -1,0 +1,9 @@
+- Define umnovo branch para correção de erros
+- Prefixo padrão BUGFIX
+- Inicia no branch DEVELOP
+- Mesclado no branch DEVELOP
+- Não gera TAG
+- Para iniciar um BUGFIX:
+    $ git flow bugfix start 'nome correção'
+- Para finalizar um BUGFIX:
+    $ git flow bugfix finish 'nome correção'
