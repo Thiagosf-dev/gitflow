@@ -1,0 +1,10 @@
+- Define uma nova versão de produção do sistema
+- Prefixo padrão RELEASE
+- Inicia em DEVELOP
+- Será mesclada em MASTER e DEVELOP
+- Usa o Semantic Version como característica de versionamento
+- Erros serão corrigidos na branch HOTFIX
+- Prar criar uma release:
+    $ git floe release start 'versão'
+- Para finalizar uma release:
+    $ git flow release finish 'versão'
