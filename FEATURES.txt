@@ -10,3 +10,5 @@
 - Para finalizar uma 'FEATURE'
     $ git flow feature finish feature1
 - Ao finalizar uma 'FEATURE' será automaticamente feito o merge para a branch de 'DEVELOP'
+- Para pulbicar uma feature, ou seja, tornnar-la disponível (visível) remotamente e não apenas localmente:
+    $ git flow feature publish 'nome feature'
