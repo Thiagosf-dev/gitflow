@@ -10,3 +10,5 @@
 - Para finalizar uma 'FEATURE'
     $ git flow feature finish feature1
 - Ao finalizar uma 'FEATURE' será automaticamente feito o merge para a branch de 'DEVELOP'
+- Para pegar uma feature remota
+    $ git flow feature track 'nome feature'
