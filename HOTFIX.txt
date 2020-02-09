@@ -1,0 +1,13 @@
+- Define um novo branch para correção de erros
+- Ligada a uma RELEASE
+- Prefixo padrão: HOTFIX
+- Nome sempre será superior a release escopo
+- Criado a partir do master
+- Se mescla com MASTER e DEVELOP
+- Gerará uma nova versão de sistema
+- Para criar uma nova HOTFIX:
+    $ git flow hotfix start 'nome versão'
+- Para finalizar uma HOTFIX:
+    $ git flow hotfix finish 'nome versão'
+- DICA: sempre conuslte as TAG´s existentes, com o comando abaixo, para que possa criar uma HOTFIX de maneira correta com o comando
+    $ git tag
