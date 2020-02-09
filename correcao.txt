@@ -1,1 +1,2 @@
+Corrigindo bugs da tarefa 'xpto'
 Corrigindo bugs da versão v0.0.2
